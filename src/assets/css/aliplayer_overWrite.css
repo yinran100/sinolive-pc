@@ -1,0 +1,43 @@
+.prism-player .prism-volume-control .volume-range {
+    left: 22px;
+    height: 140px
+}
+
+.prism-player .prism-volume-control .volume-cursor {
+    margin-bottom: -10px;
+}
+
+.prism-player .prism-ErrorMessage .prism-error-content {
+    margin-top: 200px;
+}
+
+.prism-player .prism-ErrorMessage .prism-error-content p {
+    font-size: 16px;
+    line-height: 2;
+}
+
+.prism-player .prism-ErrorMessage .prism-error-operation {
+    padding-bottom: 15px;
+}
+
+.prism-player .prism-ErrorMessage .prism-detect-info {
+    line-height: 1.5;
+    font-size: 14px
+}
+
+.prism-player .prism-liveshift-progress .prism-progress-cursor,
+.prism-player .prism-progress .prism-progress-cursor {
+    top: -8px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+.prism-player .prism-snapshot-btn:active {
+    display: block
+}
+
+.prism-player .prism-button-cancel {
+    color: #05d3f5;
+    margin-left: 5px;
+    background: 0 0
+}

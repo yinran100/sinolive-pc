@@ -1,0 +1,37 @@
+@font-face {
+	font-family: 'iconfont';
+	/* project id 903471 */
+	src: url('//at.alicdn.com/t/font_903471_5w1rxpkgxt.eot');
+	src: url('//at.alicdn.com/t/font_903471_5w1rxpkgxt.eot?#iefix') format('embedded-opentype'),
+		url('//at.alicdn.com/t/font_903471_5w1rxpkgxt.woff') format('woff'),
+		url('//at.alicdn.com/t/font_903471_5w1rxpkgxt.ttf') format('truetype'),
+		url('//at.alicdn.com/t/font_903471_5w1rxpkgxt.svg#iconfont') format('svg');
+}
+
+.iconfont {
+	font-family: "iconfont" !important;
+	font-size: 16px;
+	font-style: normal;
+	padding-right: 3px;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* 阻止代码闪现问题 */
+[v-cloak] {
+	display: none;
+}
+
+.clearfix:after {
+	content: "020";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+.ellipsis {
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+}
